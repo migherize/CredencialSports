@@ -15,7 +15,7 @@ app = FastAPI(
     openapi_url="/api/v1/openapi.json",
     docs_url="/docs",
     redoc_url="/redoc",
-    servers=[{"url": "http://www.credencialsports.com"}],
+    servers=[{"url": "https://migherize.github.io/CredencialSports"}],
 )
 
 
