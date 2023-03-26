@@ -1,0 +1,21 @@
+version: "3.3"
+services:
+  gateway:
+    container_name: gateway
+    restart: "always"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    expose:
+      - 8080
+    ports:
+      - "8000:8080"
+    networks:
+      - kukun-net
+    environment:
+      - PREFIX_API=/
+
+networks:
+  kukun-net:
+    external:
+      name: kukun-net
