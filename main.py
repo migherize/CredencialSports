@@ -8,7 +8,8 @@ mail: migherize@gmail.com
 from fastapi import FastAPI
 from typing import Union
 
-app = FastAPI(
+app = FastAPI()
+"""(
     title="My API",
     description="API description",
     version="1.0.0",
@@ -17,6 +18,7 @@ app = FastAPI(
     redoc_url="/redoc",
     servers=[{"url": "https://migherize.github.io/CredencialSports/api"}],
 )
+"""
 
 
 @app.get("/")
