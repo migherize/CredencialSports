@@ -2,45 +2,18 @@
 <html>
 
 <head>
-    <title>Swagger UI</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/swagger-ui-dist/swagger-ui.css">
+    <title> Mi página </title>
     <style>
-        html {
-            box-sizing: border-box;
-            overflow: -moz-scrollbars-vertical;
-            overflow-y: scroll;
-        }
-
-        *,
-        *:before,
-        *:after {
-            box-sizing: inherit;
-        }
-
-        body {
-            margin: 0;
-            background-color: #fafafa;
+        #mi-elemento {
+            position: absolute;
+            top: 0;
+            right: 0;
         }
     </style>
 </head>
 
 <body>
-    <div id="swagger-ui"></div>
-    <script src="https://cdn.jsdelivr.net/npm/swagger-ui-dist/swagger-ui-bundle.js"></script>
-    <script>
-        window.onload = function () {
-            // Build a system
-            const ui = SwaggerUIBundle({
-                url: "http://www.credencialsports.com/docs",
-                dom_id: '#swagger-ui',
-                presets: [
-                    SwaggerUIBundle.presets.apis,
-                    SwaggerUIBundle.SwaggerUIStandalonePreset
-                ],
-                layout: "StandaloneLayout"
-            });
-        };
-    </script>
+    <div id="mi-elemento">Este es mi elemento</div>
 </body>
 
 </html>

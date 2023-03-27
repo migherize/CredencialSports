@@ -4,9 +4,12 @@ Router General
 author: Miguel Herize
 mail: migherize@gmail.com
 """
-
+import os
 from fastapi import FastAPI
+from fastapi.responses import HTMLResponse, FileResponse
+from fastapi.staticfiles import StaticFiles
 from typing import Union
+
 
 app = FastAPI()
 """(
@@ -19,11 +22,19 @@ app = FastAPI()
     servers=[{"url": "https://credencial-lo-sports.onrender.com"}],
 )
 """
+static_path = os.path.join(os.getcwd(), "app", "static")
+print("static_path", static_path)
+app.mount("/static", StaticFiles(directory=static_path), name="static")
 
 
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
+
+
+@app.get("/credencial", response_class=HTMLResponse)
+def credencial():
+    return FileResponse("app/index.html")
 
 
 @app.get("/items/{item_id}")
