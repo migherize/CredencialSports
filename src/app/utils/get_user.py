@@ -64,7 +64,7 @@ def save_credencial(user: dict, fondo: str):
     image.paste(perfil, pos_img)
     image.paste(img_qr, pos_qr)
     # Guarda la imagen modificada
-    image.save(os.path.join(save_img, f"{Cedula}.png"))
+    image.save(os.path.join(save_img, f"{Cedula}_{user['version']}.png"))
 
 
 def get_img(id: str, path: str):
