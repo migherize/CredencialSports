@@ -28,5 +28,8 @@ DICT_EXAMPLE = {
     "sports": "Futbol",
     "category": "Adulto",
     "club": "Avengers",
-    "photo": "grupo_futbol.jpg",
+    "tipo": "Atleta",
+    "photo": "12.345.678",
+    "qr": "12.345.678",
+    "version": "0",
 }

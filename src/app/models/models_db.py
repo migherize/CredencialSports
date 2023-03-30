@@ -16,11 +16,13 @@ class athletes(Base):
 
     __tablename__ = "athletes"
     id = Column(Integer, primary_key=True, autoincrement=True)
-    cedula = Column(String(255))
     name = Column(String(255))
     surname = Column(String(255))
+    cedula = Column(String(255))
     sports = Column(String(255))
     category = Column(String(255))
     club = Column(String(255))
     photo = Column(String(255))
+    tipo = Column(String(255))
     qr = Column(String(255))
+    version = Column(String(255))

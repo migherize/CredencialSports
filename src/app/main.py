@@ -29,11 +29,15 @@ env = Environment(loader=FileSystemLoader("templates"))
 Base.metadata.create_all(bind=engine)
 
 
-@app.get("/credencial/{id}")
-async def home(id: str, db_conn: Session = Depends(database.get_db)):
+@app.get("/credencial/{id}/{version}")
+async def home(id: str, version: str, db_conn: Session = Depends(database.get_db)):
     template = templates.get_template("home.html")
-    db_all = crud.get_user(db_conn, "cedula", id)
-    img_qr = funcs.get_QR(db_all.cedula)
+    db_all = crud.get_user(db_conn, "cedula", id, version)
+    # img_qr = funcs.get_QR(db_all.cedula)
+    img_qr = funcs.get_img(db_all.cedula, "QR")
+    photo = funcs.get_img(db_all.cedula, "photo")
+    print(photo)
+    print(img_qr)
     user = {
         "name": db_all.name,
         "surname": db_all.surname,
@@ -41,7 +45,8 @@ async def home(id: str, db_conn: Session = Depends(database.get_db)):
         "sports": db_all.sports,
         "category": db_all.category,
         "club": db_all.club,
-        "photo": db_all.photo,
+        "photo": photo,
+        "tipo": db_all.tipo,
         "img_qr": img_qr,
     }
     content = template.render(user=user)
@@ -54,7 +59,7 @@ async def insert_athletes(
 ) -> dict:
     try:
         db_item = crud.create_user(db_conn, input)
-        funcs.create_QR(db_item.cedula)
+        funcs.create_QR(db_item.cedula, db_item.version, "QR")
 
         if db_item:
             return {"message": f"{db_item.cedula} Insertado"}

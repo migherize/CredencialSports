@@ -16,7 +16,10 @@ class SportsSchema(BaseModel):
     sports: str
     category: str
     club: str
+    tipo: str
     photo: str
+    qr: str
+    version: str
 
     class Config:
         """

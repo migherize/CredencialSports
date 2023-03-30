@@ -1,0 +1,170 @@
+Nombre,id,sports,category,club,tipo,version
+Anderson Ávila,20.831.863,Futbol Sala,Masculino,Ingenieria,Atleta,0
+Ronny Fernández,26.043.847,Futbol Sala,Masculino,Ingenieria,Atleta,0
+Luis Toro,25.806.561,Futbol Sala,Masculino,Ingenieria,Atleta,0
+Alejandro Molina,27.507.379,Futbol Sala,Masculino,Ingenieria,Atleta,0
+Luis Mora,28.202.122,Futbol Sala,Masculino,Ingenieria,Atleta,0
+Esdras Ochoa,21.181.929,Futbol Sala,Masculino,Ingenieria,Atleta,0
+Cesar Becerra,28.339.141,Futbol Sala,Masculino,Ingenieria,Atleta,1
+Daniel Sánchez,30.108.777,Futbol Sala,Masculino,Ingenieria,Atleta,0
+Daniel Flores,30.607.276,Futbol Sala,Masculino,Ingenieria,Atleta,0
+Luis Bolaño,27.933.066,Futbol Sala,Masculino,Ingenieria,Atleta,0
+Omar Marquéz,20.848.585,Futbol Sala,Masculino,Ingenieria,Atleta,1
+José Lujano,27.128.704,Futbol Sala,Masculino,Ingenieria,Atleta,0
+Edward Mancilla,25.560.826,Futbol Sala,Masculino,Ingenieria,Atleta,0
+Ender Mattie,20.850.228,Futbol Sala,Masculino,Ingenieria,Atleta,1
+Leonardo Arellano,31.311.674,Futbol Sala,Masculino,Ingenieria,Atleta,0
+José Castro,26.589.702,Baloncesto,Masculino,Ingenieria,Atleta,0
+Ronald Contreras,21.182.179,Baloncesto,Masculino,Ingenieria,Atleta,1
+Luis González,27.306.029,Baloncesto,Masculino,Ingenieria,Atleta,1
+Gustavo Nieves,31.033.207,Baloncesto,Masculino,Ingenieria,Atleta,0
+Alejandro Vielma,30.757.220,Baloncesto,Masculino,Ingenieria,Atleta,0
+Luis Ramírez,30.650.278,Baloncesto,Masculino,Ingenieria,Atleta,0
+Emilker Torrealba,28.483.790,Baloncesto,Masculino,Ingenieria,Atleta,0
+Simón Márquez,30.192.676,Baloncesto,Masculino,Ingenieria,Atleta,0
+Carlos Ramírez,29.794.818,Baloncesto,Masculino,Ingenieria,Atleta,0
+Kevin León,29.634.553,Baloncesto,Masculino,Ingenieria,Atleta,0
+Oscar Lobo,28.296.311,Baloncesto,Masculino,Ingenieria,Atleta,0
+Bernard Pérez,17.347.765,Baloncesto,Masculino,Ingenieria,Atleta,0
+John Olivares,13.282.262,Baloncesto,Masculino,Ingenieria,Atleta,0
+Walter Parra,18.309.012,Baloncesto,Masculino,Ingenieria,Atleta,0
+ISALIANA PEÑA,25733908,Kikimbol,Femenino,Ingenieria,Atleta,0
+MARÍA ALTUVE,26128154,Kikimbol,Femenino,Ingenieria,Atleta,0
+RUBÍ PEÑA,23442099,Kikimbol,Femenino,Ingenieria,Atleta,1
+ROSAIDA RIVAS,23442818,Kikimbol,Femenino,Ingenieria,Atleta,0
+CHRIS SULBARAN,17894660,Kikimbol,Femenino,Ingenieria,Atleta,1
+ANAIS ARAUJO,30.109.064,Kikimbol,Femenino,Ingenieria,Atleta,0
+LAURA GUTIERREZ,28549170,Kikimbol,Femenino,Ingenieria,Atleta,0
+ANI VIELMA,30068865,Kikimbol,Femenino,Ingenieria,Atleta,0
+ROXANA SULBARAN,28440356,Kikimbol,Femenino,Ingenieria,Atleta,0
+MAIBELY ESCALONA,23594820,Kikimbol,Femenino,Ingenieria,Atleta,1
+CRISLENY UZCATEGUI,30189093,Kikimbol,Femenino,Ingenieria,Atleta,1
+SILVANA RAMIREZ,30734730,Kikimbol,Femenino,Ingenieria,Atleta,1
+Aymara vera,28501380,Kikimbol,Femenino,Ingenieria,Atleta,0
+Yamny Fernández,30534291,Kikimbol,Femenino,Ingenieria,Atleta,0
+Rosyber Noguera,30.478.602,Kikimbol,Femenino,Ingenieria,Atleta,0
+Yosmeily Pereira,31233423,Kikimbol,Femenino,Ingenieria,Atleta,0
+FRANCISNEY SANTANDER,28501324,Kikimbol,Femenino,Ingenieria,Atleta,0
+Andric Velásquez,27.162.810,Voleibol,Masculino,Ingenieria,Atleta,1
+Daniel Betancourt,26.198.674,Voleibol,Masculino,Ingenieria,Atleta,1
+Eduar Salazar,26.259.466,Voleibol,Masculino,Ingenieria,Atleta,0
+Eldry Briceño,31.704.456,Voleibol,Masculino,Ingenieria,Atleta,1
+Ever Becerra,29.705.923,Voleibol,Masculino,Ingenieria,Atleta,1
+Gabriel Garrido,28.037.689,Voleibol,Masculino,Ingenieria,Atleta,1
+Gabriel Piñeda,29.652.523,Voleibol,Masculino,Ingenieria,Atleta,1
+Giovanni Russo,29.847.941,Voleibol,Masculino,Ingenieria,Atleta,1
+Juan Arellano,26.931.962,Voleibol,Masculino,Ingenieria,Atleta,1
+Luis González,27.306.029,Voleibol,Masculino,Ingenieria,Atleta,2
+Ronald Contreras,21.182.179,Voleibol,Masculino,Ingenieria,Atleta,2
+Cristofer Ibarra,28.163.285,Voleibol,Masculino,Ingenieria,Atleta,1
+Andric Velásquez,27.162.810,Voleibol,Mixto,Ingenieria,Atleta,2
+Carlos Sulbaran,22.664.927,Voleibol,Mixto,Ingenieria,Atleta,1
+Chris Sulbarán,17894660,Voleibol,Mixto,Ingenieria,Atleta,2
+Crisleny Uzcategui,30189093,Voleibol,Mixto,Ingenieria,Atleta,2
+Daniel Betancourt,26.198.674,Voleibol,Mixto,Ingenieria,Atleta,2
+Ever Becerra,29.705.923,Voleibol,Mixto,Ingenieria,Atleta,2
+Gabriel Piñeda,29.652.523,Voleibol,Masculino,Ingenieria,Atleta,2
+Gabriel Garrido,28.037.689,Voleibol,Mixto,Ingenieria,Atleta,2
+Juan Arellano,26.931.962,Voleibol,Mixto,Ingenieria,Atleta,2
+Cristofer Ibarra,28.163.285,Voleibol,Mixto,Ingenieria,Atleta,2
+Giovanni Russo,29.847.941,Voleibol,Mixto,Ingenieria,Atleta,2
+Silvana Ramirez,30734730,Voleibol,Mixto,Ingenieria,Atleta,2
+Sthefany Ramirez,30.389.465,Voleibol,Mixto,Ingenieria,Atleta,1
+Silvana Ramírez,30734730,Futbol Sala,Femenino,Ingenieria,Atleta,3
+Sthefany Ramírez,30.389.465,Futbol Sala,Femenino,Ingenieria,Atleta,2
+Chris Sulbarán,17894660,Futbol Sala,Femenino,Ingenieria,Atleta,3
+Crisleny Uzcategui,30189093,Futbol Sala,Femenino,Ingenieria,Atleta,3
+MAIBELY ESCALONA,23594820,Futbol Sala,Femenino,Ingenieria,Atleta,2
+Skarlet Dávila,28.514.885,Futbol Sala,Femenino,Ingenieria,Atleta,0
+Daniela Araque,25.151.152,Futbol Sala,Femenino,Ingenieria,Atleta,0
+Amaroa Paredes,26.010.307,Futbol Sala,Femenino,Ingenieria,Atleta,0
+Mariangel Vielma,30.188.603,Futbol Sala,Femenino,Ingenieria,Atleta,0
+RUBÍ PEÑA,23442099,Futbol Sala,Femenino,Ingenieria,Atleta,2
+Michel Cardenas,30.625.314,Futbol Sala,Femenino,Ingenieria,Atleta,0
+María Sosa,31.093.406,Futbol Sala,Femenino,Ingenieria,Atleta,0
+ENDER MATTIE,20.850.228,Softbol,Masculino,Ingenieria,Atleta,2
+CRISTIAN RINCÓN,26.371.649,Softbol,Masculino,Ingenieria,Atleta,0
+FREDDY BRICEÑO,21.063.264,Softbol,Masculino,Ingenieria,Atleta,6
+DOUGLAS CASTILLO,18.796.880,Softbol,Masculino,Ingenieria,Atleta,0
+RICARDO DÁVILA,28.440.129,Softbol,Masculino,Ingenieria,Atleta,0
+JOEL DIAZ,18.619.221,Softbol,Masculino,Ingenieria,Atleta,0
+JESÚS RUIZ,25.033.228,Softbol,Masculino,Ingenieria,Atleta,1
+VICTOR HERNANDEZ,20.849.137,Softbol,Masculino,Ingenieria,Atleta,0
+RAFAEL CORONADO,21.063.037,Softbol,Masculino,Ingenieria,Atleta,0
+ALBERT CALDERÓN,17.522.318,Softbol,Masculino,Ingenieria,Atleta,0
+LUIS ÁVILA,23.497.715,Softbol,Masculino,Ingenieria,Atleta,0
+OSCAR TRIVIÑO,19.421.832,Softbol,Masculino,Ingenieria,Atleta,1
+LEONARDO PERALES,19.333.453,Softbol,Masculino,Ingenieria,Atleta,0
+JUAN RIVAS,25.560.787,Softbol,Masculino,Ingenieria,Atleta,0
+CÉSAR UZCATEGUI,15.921.333,Softbol,Masculino,Ingenieria,Atleta,0
+WERNER FARO,11.956.304,Softbol,Masculino,Ingenieria,Atleta,0
+Ronald Ramírez,23723324,Softbol,Masculino,Ingenieria,Atleta,0
+Manuel Meza,27364196,Softbol,Masculino,Ingenieria,Atleta,1
+Omar Marquéz,20.848.585,Softbol,Masculino,Ingenieria,Atleta,2
+Carlos Prado,31.372.911,Softbol,Masculino,Ingenieria,Atleta,0
+Juan Oquendo,21.332.176,Softbol,Masculino,Ingenieria,Atleta,0
+JESÚS DURÁN,19.058.540,Softbol,Masculino,Ingenieria,Atleta,0
+JULIAN ROJAS,30450910,Tenis de Mesa,Masculino,Ingenieria,Atleta,0
+GABRIEL PINEDA,29.652.523,Tenis de Mesa,Masculino,Ingenieria,Atleta,3
+RAFAEL CARROZ,25886702,Tenis de Mesa,Masculino,Ingenieria,Atleta,0
+ELDRY BRICEÑO,31.704.456,Tenis de Mesa,Masculino,Ingenieria,Atleta,2
+Luis Ramirez,27.992.590,Ajedrez,Masculino,Ingenieria,Atleta,0
+Pablo Becerra,27.248.915,Ajedrez,Masculino,Ingenieria,Atleta,0
+Miguelangel Quisca,27.587.904,Domino,Masculino,Ingenieria,Atleta,0
+Manuel Meza,27364196,Domino,Masculino,Ingenieria,Atleta,2
+OSCAR TRIVIÑO,19.421.832,Domino,Masculino,Ingenieria,Atleta,2
+CESAR BECERRA,28.339.141,Futbo campo,Masculino,Ingenieria,Atleta,2
+Wuilmar Torres,20.435.190,Futbo campo,Masculino,Ingenieria,Atleta,0
+OSCAR TRIVIÑO,19.421.832,Futbo campo,Masculino,Ingenieria,Atleta,3
+JESÚS RUIZ,25.033.228,Futbo campo,Masculino,Ingenieria,Atleta,2
+Boris Dávila,19.421.907,Futbo campo,Masculino,Ingenieria,Atleta,0
+MARCOS CUEVAS,25.438.593,Futbo campo,Masculino,Ingenieria,Atleta,0
+ENDER MATTIE,20.850.228,Futbo campo,Masculino,Ingenieria,Atleta,3
+YORBETH MARQUINA,39.969.156,Futbo campo,Masculino,Ingenieria,Atleta,0
+LUIS MEDINA,23.555.526,Futbo campo,Masculino,Ingenieria,Atleta,0
+ROLANDO CAMPO,30.757.402,Futbo campo,Masculino,Ingenieria,Atleta,0
+OMAR MÁRQUEZ,20.848.585,Futbo campo,Masculino,Ingenieria,Atleta,3
+FREDDY BRICEÑO,21.063.264,Futbo campo,Masculino,Ingenieria,Atleta,0
+LUIS BOLAÑO,27.933.066,Futbo campo,Masculino,Ingenieria,Atleta,1
+LEONARDO ARELLANO,31.311.674,Futbo campo,Masculino,Ingenieria,Atleta,1
+ALEJANDRO PAREDES,27.245.074,Futbo campo,Masculino,Ingenieria,Atleta,0
+Jesus Cepeda,23724559,Futbo campo,Masculino,Ingenieria,Atleta,0
+MIGUEL SANTIAGO,25.806.190,Futbo campo,Masculino,Ingenieria,Atleta,0
+ISMAEL TORRES,30.927.140,Futbo campo,Masculino,Ingenieria,Atleta,0
+DANIEL FLORES,30.607.276,Futbo campo,Masculino,Ingenieria,Atleta,1
+MANUEL PÉREZ,31.133.262,Futbo campo,Masculino,Ingenieria,Atleta,0
+CRISTHIAN RIVAS,30.618.721,Futbo campo,Masculino,Ingenieria,Atleta,0
+FLAMEL ROA,23.236.285,Futbo campo,Masculino,Ingenieria,Atleta,0
+JAIDER PRIETO,29.958.051,Futbo campo,Masculino,Ingenieria,Atleta,0
+Andrea Molina,28.296.361,Natacion,Femenino,Ingenieria,Atleta,0
+Daniela Araque,25.151.152,Natacion,Femenino,Ingenieria,Atleta,1
+Daniel Uzcátegui,31.033.463,Natacion,Masculino,Ingenieria,Atleta,0
+Carlos Ramírez,29.794.818,Natacion,Masculino,Ingenieria,Atleta,1
+Simón Marquez,30.192.676,Natacion,Masculino,Ingenieria,Atleta,1
+Juan Rivas,25.560.787,Natacion,Masculino,Ingenieria,Atleta,1
+Luis Toro,25.806.561,Voleibol,Mixto,Ingenieria,Atleta,1
+Amaroa Paredes,26.010.307,Kikimbol,Femenino,Ingenieria,Atleta,1
+Jose Barreto,26.962.323,Ajedrez,Masculino,Ingenieria,Atleta,0
+HUMBERTO ARAUJO,20.401.018,Futbol campo,Masculino,Ingenieria,Delegado,1
+Andrés Hernández,26.749.709,Futbol campo,Masculino,Ingenieria,Delegado,1
+Arturo Reimi,23.647.156,Ajedrez,Masculino,Ingenieria,Delegado,1
+RAFAEL VALERA,25865969,Tenis de Mesa,Masculino,Ingenieria,Delegado,1
+HUMBERTO ARAUJO,20.401.018,Softbol,Masculino,Ingenieria,Delegado,2
+Andrés Hernández,26.749.709,Futbolsala,Femenino,Ingenieria,Delegado,2
+Humberto Araujo,20.401.018,Futbolsala,Femenino,Ingenieria,Delegado,3
+Alejandro Molina,27.507.379,Futbolsala,Femenino,Ingenieria,Delegado,1
+HUMBERTO ARAUJO,20.401.018,Voleibol,Masculino,Ingenieria,Delegado,4
+FREDDY BRICEÑO,21.063.264,Voleibol,Masculino,Ingenieria,Delegado,1
+HUMBERTO ARAUJO,20.401.018,Voleibol,Mixto,Ingenieria,Delegado,5
+FREDDY BRICEÑO,21.063.264,Voleibol,Mixto,Ingenieria,Delegado,2
+RAFAEL VALERA,25865969,Kikimbol,Femenino,Ingenieria,Delegado,2
+HUMBERTO ARAUJO,20.401.018,Kikimbol,Femenino,Ingenieria,Delegado,6
+FREDDY BRICEÑO,21.063.264,Kikimbol,Femenino,Ingenieria,Delegado,3
+Andrés Hernández,26.749.709,Kikimbol,Femenino,Ingenieria,Delegado,3
+Andrés Hernández,26.749.709,Baloncesto,Masculino,Ingenieria,Delegado,4
+HUMBERTO ARAUJO,20.401.018,Futbolsala,Masculino,Ingenieria,Delegado,7
+FREDDY BRICEÑO,21.063.264,Futbolsala,Masculino,Ingenieria,Delegado,4
+Andrés Hernández,26.749.709,Futbolsala,Masculino,Ingenieria,Delegado,5
+Andrés Hernández,26.749.709,Natacion,Femenina,Ingenieria,Delegado,6
+Daniela Araque,25.151.152,Natacion,Masculina,Ingenieria,Delegado,2
+Andrés Hernández,26.749.709,Ajedrez,Masculino,Ingenieria,Delegado,7

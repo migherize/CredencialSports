@@ -26,7 +26,7 @@ eng = (
 )
 engine = create_engine(eng)
 """
-SQLALCHEMY_DATABASE_URL = "sqlite:///./example.db"
+SQLALCHEMY_DATABASE_URL = "sqlite:///./sports.db"
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL, connect_args={"check_same_thread": False}
 )
