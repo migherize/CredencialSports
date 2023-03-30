@@ -59,17 +59,17 @@ def save(user: dict, fondo: str):
     image.paste(perfil, pos_img)
     image.paste(img_qr, pos_qr)
     # Guarda la imagen modificada
-    image.save(os.path.join(save_img, f"{Cedula}.png"))
+    image.save(os.path.join(save_img, f"{Cedula}_{user['version']}.png"))
 
 
 user = {
-    "id": "25.832.303",
-    "sports": "Ajedrez",
-    "category": "MASCULINO",
+    "id": "28440356",
+    "sports": "KIKIMBOL",
+    "category": "FEMENINO",
     "tipo": "ATLETA",
-    "version": 2,
-    "name": "Miguel",
-    "surname": "Herize",
+    "version": 0,
+    "name": "ROXANA ",
+    "surname": "SULBARAN",
     "qr": "25.832.303",
     "photo": "25.832.303",
 }
