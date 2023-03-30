@@ -36,8 +36,13 @@ async def home(id: str, version: str, db_conn: Session = Depends(database.get_db
     # img_qr = funcs.get_QR(db_all.cedula)
     img_qr = funcs.get_img(db_all.cedula, "QR")
     photo = funcs.get_img(db_all.cedula, "photo")
-    print(photo)
-    print(img_qr)
+
+    if db_all.tipo == "ATLETA":
+        fondo = "credencial_atleta"
+    
+    elif db_all.tipo == "DELEGADO":
+        fondo = "credencial_tecnico"
+
     user = {
         "name": db_all.name,
         "surname": db_all.surname,
@@ -48,6 +53,7 @@ async def home(id: str, version: str, db_conn: Session = Depends(database.get_db
         "photo": photo,
         "tipo": db_all.tipo,
         "img_qr": img_qr,
+        "fondo": fondo,
     }
     content = template.render(user=user)
     return HTMLResponse(content=content)

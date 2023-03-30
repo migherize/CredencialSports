@@ -4,47 +4,47 @@
 
 {% block content %}
 <div style="position: relative;">
-    <img src="/static/Credencial_Editable.jpg" alt="Formato credencial">
-    <div style=" position: absolute; top: 90px; padding-top: 0; padding-bottom: 0;">
-        <p style="transform: translate(50px, -50%); background-color: transparent; margin-top: 0px; margin-bottom:
+    <img src="/static/{{user.fondo}}.png" width="700" height="700" alt="Formato credencial">
+    <div style=" position: absolute; top: 295px; padding-top: 0; padding-bottom: 0;">
+        <p style="transform: translate(80px, -50%); background-color: transparent; margin-top: 0px; margin-bottom:
             0px; padding-top: 0; padding-bottom: 0;">
             {{ user.name }}</p>
     </div>
-    <div style=" position: absolute; top: 150px; padding-top: 0; padding-bottom: 0;">
+    <div style=" position: absolute; top: 115px; left: 150px; padding-top: 0; padding-bottom: 0;">
         <p style="transform: translate(250px, -50%); background-color: transparent; margin-top: 0px; margin-bottom:
             0px; padding-top: 0; padding-bottom: 0;">
-            <img src="/static/photo/{{user.photo}}" width="130" height="150" alt="Formato credencial">
+            <img src="/static/photo/{{user.photo}}" width="140" height="150" alt="Formato credencial">
         </p>
     </div>
-    <div style=" position: absolute; top: 135px; padding-top: 0; padding-bottom: 0;">
+    <div style=" position: absolute; top: 350px; padding-top: 0; padding-bottom: 0;">
         <p
-            style="transform: translate(50px, -50%); background-color: transparent; margin-top: 0px; margin-bottom: 0px;">
+            style="transform: translate(80px, -50%); background-color: transparent; margin-top: 0px; margin-bottom: 0px;">
             {{ user.surname }}</p>
     </div>
-    <div style=" position: absolute; top: 176px; padding-top: 0; padding-bottom: 0;">
+    <div style=" position: absolute; top: 410px; padding-top: 0; padding-bottom: 0;">
         <p
-            style="transform: translate(50px, -50%); background-color: transparent; margin-top: 0px; margin-bottom: 0px;">
+            style="transform: translate(80px, -50%); background-color: transparent; margin-top: 0px; margin-bottom: 0px;">
             {{ user.id }}</p>
     </div>
-    <div style=" position: absolute; top: 220px; padding-top: 0; padding-bottom: 0;">
+    <div style=" position: absolute; top: 465px; padding-top: 0; padding-bottom: 0;">
         <p
-            style="transform: translate(50px, -50%); background-color: transparent; margin-top: 0px; margin-bottom: 0px;">
+            style="transform: translate(80px, -50%); background-color: transparent; margin-top: 0px; margin-bottom: 0px;">
             {{ user.sports }}</p>
     </div>
-    <div style=" position: absolute; top: 260px; padding-top: 0; padding-bottom: 0;">
+    <div style=" position: absolute; top: 520px; padding-top: 0; padding-bottom: 0;">
         <p
-            style="transform: translate(50px, -50%); background-color: transparent; margin-top: 0px; margin-bottom: 0px;">
+            style="transform: translate(80px, -50%); background-color: transparent; margin-top: 0px; margin-bottom: 0px;">
             {{ user.category }}</p>
     </div>
-    <div style=" position: absolute; top: 310px; left: -115px; padding-top: 0; padding-bottom: 0;">
-        <p style="transform: translate(250px, -50%); background-color: transparent; margin-top: 0px; margin-bottom:
+    <div style=" position: absolute; top: 490px; left: -115px; padding-top: 0; padding-bottom: 0;">
+        <p style="transform: translate(500px, -50%); background-color: transparent; margin-top: 0px; margin-bottom:
             0px; padding-top: 0; padding-bottom: 0;">
-            <img src="/static/QR/{{user.img_qr}}" width="80" height="80" alt="Formato credencial">
+            <img src="/static/QR/{{user.img_qr}}" width="200" height="200" alt="Formato credencial">
         </p>
     </div>
     <div style=" position: absolute; top: 374px; padding-top: 0; padding-bottom: 0;">
         <p
-            style="color: aliceblue; transform: translate(160px, -50%); background-color: transparent; margin-top: 0px; margin-bottom: 0px;">
+            style="color: aliceblue; transform: translate(80px, -50%); background-color: transparent; margin-top: 0px; margin-bottom: 0px;">
             {{ user.club }}</p>
     </div>
 </div>
