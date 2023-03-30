@@ -23,3 +23,4 @@ class athletes(Base):
     category = Column(String(255))
     club = Column(String(255))
     photo = Column(String(255))
+    qr = Column(String(255))

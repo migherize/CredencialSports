@@ -33,7 +33,7 @@ Base.metadata.create_all(bind=engine)
 async def home(id: str, db_conn: Session = Depends(database.get_db)):
     template = templates.get_template("home.html")
     db_all = crud.get_user(db_conn, "cedula", id)
-    print(db_all)
+    img_qr = funcs.get_QR(db_all.cedula)
     user = {
         "name": db_all.name,
         "surname": db_all.surname,
@@ -42,6 +42,7 @@ async def home(id: str, db_conn: Session = Depends(database.get_db)):
         "category": db_all.category,
         "club": db_all.club,
         "photo": db_all.photo,
+        "img_qr": img_qr,
     }
     content = template.render(user=user)
     return HTMLResponse(content=content)
@@ -53,9 +54,10 @@ async def insert_athletes(
 ) -> dict:
     try:
         db_item = crud.create_user(db_conn, input)
+        funcs.create_QR(db_item.cedula)
 
         if db_item:
-            return {"message": "{{db_item.id}} Insertado"}
+            return {"message": f"{db_item.cedula} Insertado"}
 
     except Exception as exc:
         raise HTTPException(

@@ -19,6 +19,7 @@ NAME_SERVICEDB = os.getenv("name_serviceDB")
 NAMEDB = os.getenv("nameBD")
 PORT = os.getenv("port")
 
+host = "http://127.0.0.1:8000/credencial/"
 DICT_EXAMPLE = {
     "id": "12.345.678",
     "name": "Peter",
@@ -28,9 +29,3 @@ DICT_EXAMPLE = {
     "club": "Avengers",
     "photo": "grupo_futbol.jpg",
 }
-
-
-
-
-
-
