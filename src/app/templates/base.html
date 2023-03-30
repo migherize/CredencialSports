@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-repeat: no-repeat;
+            background-color: #052F79;
+            background-size: 100% 100%;
+
+        }
+
+        img {
+            display: block;
+            margin: auto;
+        }
+
+        #mi-elemento {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: aliceblue;">Servicio de Credenciales</h1>
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style="color: aliceblue;">
+                    <p>&copy; 2023 Enlace Sports. Todos los derechos reservados <a
+                            href="https://github.com/migherize/CredencialSports" style="color: aliceblue;">
+                            @migherize</a></p>
+                    <img src="/static/fondo.png" alt="LOGO ULA">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

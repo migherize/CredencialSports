@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div style="position: relative;">
+    <img src="/static/Credencial_Editable.jpg" alt="Formato credencial">
+    <div style=" position: absolute; top: 90px; padding-top: 0; padding-bottom: 0;">
+        <p style="transform: translate(50px, -50%); background-color: transparent; margin-top: 0px; margin-bottom:
+            0px; padding-top: 0; padding-bottom: 0;">
+            {{ user.id }}</p>
+    </div>
+    <div style=" position: absolute; top: 150px; padding-top: 0; padding-bottom: 0;">
+        <p style="transform: translate(250px, -50%); background-color: transparent; margin-top: 0px; margin-bottom:
+            0px; padding-top: 0; padding-bottom: 0;">
+            <img src="/static/{{user.photo}}" width="130" height="150" alt="Formato credencial">
+        </p>
+    </div>
+    <div style=" position: absolute; top: 135px; padding-top: 0; padding-bottom: 0;">
+        <p
+            style="transform: translate(50px, -50%); background-color: transparent; margin-top: 0px; margin-bottom: 0px;">
+            {{ user.name }}</p>
+    </div>
+    <div style=" position: absolute; top: 176px; padding-top: 0; padding-bottom: 0;">
+        <p
+            style="transform: translate(50px, -50%); background-color: transparent; margin-top: 0px; margin-bottom: 0px;">
+            {{ user.surname }}</p>
+    </div>
+    <div style=" position: absolute; top: 220px; padding-top: 0; padding-bottom: 0;">
+        <p
+            style="transform: translate(50px, -50%); background-color: transparent; margin-top: 0px; margin-bottom: 0px;">
+            {{ user.sports }}</p>
+    </div>
+    <div style=" position: absolute; top: 260px; padding-top: 0; padding-bottom: 0;">
+        <p
+            style="transform: translate(50px, -50%); background-color: transparent; margin-top: 0px; margin-bottom: 0px;">
+            {{ user.category }}</p>
+    </div>
+    <div style=" position: absolute; top: 374px; padding-top: 0; padding-bottom: 0;">
+        <p
+            style="color: aliceblue; transform: translate(160px, -50%); background-color: transparent; margin-top: 0px; margin-bottom: 0px;">
+            {{ user.club }}</p>
+    </div>
+</div>
+{% endblock %}

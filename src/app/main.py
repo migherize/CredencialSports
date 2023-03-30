@@ -5,38 +5,34 @@ author: Miguel Herize
 mail: migherize@gmail.com
 """
 import os
-from fastapi import FastAPI
-from fastapi.responses import HTMLResponse, FileResponse
+from fastapi import FastAPI, Request
+from sqlalchemy import create_engine, text
+from fastapi.responses import HTMLResponse
+from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
-from typing import Union
-
+from jinja2 import Environment, FileSystemLoader
 
 app = FastAPI()
-"""(
-    title="My API",
-    description="API description",
-    version="1.0.0",
-    openapi_url="/api/v1/openapi.json",
-    docs_url="/docs",
-    redoc_url="/redoc",
-    servers=[{"url": "https://credencial-lo-sports.onrender.com"}],
-)
-"""
 static_path = os.path.join(os.getcwd(), "app", "static")
-print("static_path", static_path)
 app.mount("/static", StaticFiles(directory=static_path), name="static")
 
+path_template = os.path.join(os.getcwd(), "app", "templates")
+templates = Jinja2Templates(directory=path_template)
 
-@app.get("/")
-def read_root():
-    return {"Hello": "World"}
-
-
-@app.get("/credencial", response_class=HTMLResponse)
-def credencial():
-    return FileResponse("app/index.html")
+env = Environment(loader=FileSystemLoader("templates"))
 
 
-@app.get("/items/{item_id}")
-def read_item(item_id: int, q: Union[str, None] = None):
-    return {"item_id": item_id, "q": q}
+@app.get("/credencial/{id}")
+async def home():
+    template = templates.get_template("home.html")
+    user = {
+        "id": "Miguel",
+        "name": "Herize",
+        "surname": "25.832.303",
+        "sports": "Ajedrez",
+        "category": "Individual",
+        "club": "INGENIERIA",
+        "photo": "25832303.jpg",
+    }
+    content = template.render(user=user)
+    return HTMLResponse(content=content)
