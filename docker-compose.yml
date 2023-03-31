@@ -1,7 +1,7 @@
 version: "3.3"
 services:
-  gateway:
-    container_name: gateway
+  sports:
+    container_name: sports
     restart: "always"
     build:
       context: .
@@ -13,13 +13,3 @@ services:
 
     volumes:
       - "./src/:/app"
-
-    networks:
-      - kukun-net
-    environment:
-      - PREFIX_API=/
-
-networks:
-  kukun-net:
-    external:
-      name: kukun-net
